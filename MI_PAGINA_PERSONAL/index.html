@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soledad - Mi Página Personal</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;600;700&family=Playfair+Display:wght@700;900&family=Fredoka+One&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Quicksand', Arial, sans-serif; }
+body { background:#fff5f8; }
+header { background: linear-gradient(135deg, #ff5da2, #c77dff, #ff8fab); color:white; padding:50px 20px; text-align:center; }
+header h1 { font-family: 'Dancing Script', cursive; font-size:58px; color:white; text-shadow: 3px 3px 0px #d63384, 6px 6px 15px rgba(0,0,0,0.4); letter-spacing: 1px; }
+header p { margin-top:14px; font-size:19px; font-weight:700; color:#fff0f5; text-shadow: 1px 1px 3px rgba(0,0,0,0.3); }
+section { padding:30px 20px; max-width:850px; margin:auto; }
+h2 { font-family: 'Fredoka One', cursive; font-size:30px; background: linear-gradient(90deg, #ff5da2, #c77dff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 2px 2px 0px #ffe0ec; margin-bottom:14px; text-transform: uppercase; letter-spacing: 1.5px; }
+p { font-size:18px; line-height: 1.7; color:#4a2340; font-weight:600; }
+li { font-size:17px; font-weight:600; color:#6a2c5a; }
+.frase { font-family:'Dancing Script', cursive; font-size:32px; text-align:center; color:#c77dff; text-shadow: 2px 2px 0px #ffd6e7, 3px 3px 8px rgba(199,125,255,0.4); line-height:1.4; }
+.caja { background:white; padding:24px; border-radius:22px; margin-top:20px; box-shadow: 0 8px 20px rgba(255,93,162,0.2); border-left: 8px solid #ff5da2; }
+.caja.rosa { border-left: 8px solid #c77dff; }
+.caja.morado { border-left: 8px solid #ff8fab; }
+.btn { display:inline-block; background:white; color:#d63384; padding:14px 28px; border-radius:30px; text-decoration:none; font-weight:900; font-size:18px; margin-top:18px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); text-shadow: 1px 1px 0px #ffd6e7; }
+.btn-verde { display:inline-block; background:#25D366; color:white; padding:13px 24px; border-radius:30px; text-decoration:none; font-weight:800; font-size:17px; margin-top:10px; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); }
+.btn-rosa { display:inline-block; background:#ff5da2; color:white; padding:13px 24px; border-radius:30px; text-decoration:none; font-weight:800; font-size:17px; margin-top:10px; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); }
+ul { list-style:none; margin-top:10px; }
+ul li { background:#fff0f5; padding:12px; border-radius:14px; margin-bottom:9px; }
+.galeria { display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin-top:15px; }
+.galeria img { width:100%; height:190px; object-fit:cover; border-radius:18px; border:4px solid #ffd6e7; box-shadow: 0 5px 12px rgba(255,93,162,0.3); }
+.titulo-grande { font-family:'Playfair Display', serif; font-size:22px; color:#d63384; font-weight:900; text-shadow: 2px 2px 0px #ffe0ec; }
+footer { background: linear-gradient(135deg, #ff5da2, #c77dff); color:white; text-align:center; padding:24px; }
+footer p { font-family: 'Dancing Script', cursive; font-size:26px; color:white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+</style>
+</head>
+<body>
+<header>
+  <h1>✨ Hola, soy Soledad ✨</h1>
+  <img src="foto.jpg" alt="Foto de Soledad" style="width:165px; height:165px; border-radius:50%; border:5px solid white; margin-top:18px; box-shadow: 0 8px 20px rgba(0,0,0,0.4); object-fit:cover;">
+  <p>ESTUDIANTE DE APSTI - IESTP MANUEL SCORZA TORRE, ACOBAMBA</p>
+  <p style="font-family:'Dancing Script', cursive; font-size:26px;">🌸 Soñadora, responsable y con muchas metas 🌸</p>
+  <a href="#contacto" class="btn">💌 CONTÁCTAME</a>
+</header>
+<section>
+  <h2>💖 Sobre Mí</h2>
+  <p>Soy estudiante de APSTI, tengo 19 años vivo en chacapampa. Me gusta caminar, aprender cosas nuevas y luchar por mis sueños. Mi meta es cumplir todos mis objetivos y hacer sentir orgullosa a mi familia.</p>
+  <div class="caja">
+    <h2>💭 Mi Frase Favorita</h2>
+    <p class="frase">"Nunca dejes de soñar, todo lo que sueñas lo puedes lograr con esfuerzo y fe."</p>
+  </div>
+  <div class="caja rosa">
+    <h2>🌷 Mis Habilidades</h2>
+    <p>✅ <span style="color:#ff5da2; font-size:20px;">HTML y CSS</span><br>✅ <span style="color:#c77dff; font-size:20px;">WordPress y Elementor</span><br>✅ <span style="color:#ff8fab; font-size:20px;">Responsable y puntual</span><br>✅ Con muchas ganas de aprender</p>
+  </div>
+  <div class="caja morado">
+    <h2>🎀 Mis Hobbies</h2>
+    <ul>
+      <li>🌸 Caminar y disfrutar de la naturaleza</li>
+      <li>🎵 Escuchar música</li>
+      <li>📚 Estudiar y aprender</li>
+      <li>👨‍👩‍👧 Pasar tiempo con mi familia</li>
+      <li>📸 Tomarme fotos bonitas</li>
+    </ul>
+  </div>
+  <div class="caja">
+    <h2>💜 Mis Gustos</h2>
+    <p><span class="titulo-grande">💗 Color favorito:</span> Rosado<br><span class="titulo-grande">🍲 Comida favorita:</span> La comida de mi mamá<br><span class="titulo-grande">🌸 Estación favorita:</span> Primavera<br><span class="titulo-grande">🎬 Me gusta:</span> Ver novelas y videos bonitos</p>
+  </div>
+  <div class="caja rosa">
+    <h2>😊 Lo Que Me Hace Feliz</h2>
+    <p style="font-size:19px; color:#7a2a5e;">Estar con mi familia, ver a mis seres queridos felices, lograr mis metas y que Dios me bendiga cada día.</p>
+  </div>
+  <div class="caja">
+    <h2>🎯 Mis Metas 2026</h2>
+    <p>✔️ Terminar mi carrera de APSTI<br>✔️ Aprender más de diseño web<br>✔️ Hacer sentir orgullosa a mi familia<br>✔️ Cumplir todos mis sueños</p>
+  </div>
+  <div class="caja rosa">
+    <h2>📸 Mi Galería</h2>
+    <p>Mis momentos favoritos 💖</p>
+    <div class="galeria">
+      <img src="foto2.jpg" alt="Mi foto 2">
+      <img src="foto3.jpg" alt="Mi foto 3">
+      <img src="foto4.jpg" alt="Mi foto 4">
+      <img src="foto5.jpg" alt="Mi foto 5">
+    </div>
+  </div>
+  <div class="caja morado">
+    <h2>🎵 Mi Música Favorita</h2>
+    <p>Me gusta la música que me alegra el día y me motiva a seguir adelante.</p>
+    <p style="color:#d63384; font-weight:800; font-size:20px;">🎶 Cumbia - Huayno - Baladas - Música cristiana</p>
+  </div>
+  <div class="caja">
+    <h2>✨ Mis Proyectos</h2>
+    <p>📌 Página del IESTP Manuel Scorza Torre<br>📌 Mi página personal en 4 servidores<br>📌 Mi meta: Ser una gran profesional de APSTI</p>
+  </div>
+</section>
+<section id="contacto">
+  <h2>💌 Contacto</h2>
+  <div class="caja">
+    <p>📧 Correo: <span style="color:#ff5da2; font-weight:900;">solcharo94@gmail.com</span><br>📱 WhatsApp: <span style="color:#25D366; font-weight:900;">974573230</span><br>📍 Acobamba - Huancavelica</p>
+    <br>
+    <a href="https://wa.me/51974573230" class="btn-verde">💬 Escríbeme por WhatsApp</a>
+    <br><br>
+    <a href="https://www.facebook.com" class="btn-rosa">📘 Mi Facebook</a>
+    <a href="https://www.tiktok.com" class="btn-rosa">🎵 Mi TikTok</a>
+  </div>
+</section>
+<footer>
+  <p>© 2026 Soledad - Hecho con 💖 en Acobamba</p>
+  <p>Gracias por visitar mi página 🌸</p>
+</footer>
+</body>
+</html>
